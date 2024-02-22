@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(224, 149, 11, 0.742);
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    background-color: aliceblue;
+
+}
+
+#nav-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#nav h3 {
+    font-size: 20px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: white;
+
+}
+
+#nav i {
+    font-size: 23px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: white;
+
+}
+
+#nav h1 {
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: red;
+
+}
+
+#nav button {
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+
+}
+
+#btn2 {
+    background-color: aqua;
+    color: red;
+}
+
+#main>h1 {
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+img {
+    height: 320px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+
+}
+
+#img1 {
+    rotate: 45deg;
+}
+
+
+#img2 {
+    rotate: 30deg;
+}
+
+#img3 {
+    rotate: 15deg;
+}
+
+
+#img4 {
+    rotate: -1deg;
+}
+
+#mainimg1 {
+    rotate: 60deg;
+}
+
+#btm-left {
+    position: absolute;
+    padding: 5px 10px;
+    bottom: 5%;
+    left: 3%;
+    font-size: 20px;
+    background-color: white;
+    color: red;
+    border-radius: 50px;
+    font-weight: 500;
+    border: 1.5px solid white;
+}
+
+#btm-right {
+    position: absolute;
+    padding: 5px 10px;
+    bottom: 5%;
+    right: 3%;
+    font-size: 20px;
+    background-color: white;
+    color: red;
+    border-radius: 50px;
+    font-weight: 500;
+    border: 1.5px solid white;
+
+}
